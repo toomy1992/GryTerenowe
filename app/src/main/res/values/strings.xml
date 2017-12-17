@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GryTerenowe</string>
+    <string name="Open">Otwórz</string>
+    <string name="Close">Zamknij</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
