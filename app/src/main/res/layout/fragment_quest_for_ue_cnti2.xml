@@ -9,7 +9,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
-        android:text="@string/w_planie_jest_to_budynek" />
+        android:text="@string/w_planie_jest_to_budynek"
+        android:id="@+id/textView3"
+        android:textColor="@color/white"/>
 
 
     <Button
@@ -23,5 +25,26 @@
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
         android:text="@string/Dalej" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hol" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dalejcnti3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginBottom="11dp"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:text="Wpisz" />
 </RelativeLayout>
 

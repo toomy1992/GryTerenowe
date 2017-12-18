@@ -11,8 +11,17 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
-        android:text="@string/udaj_si_tam_gdzie_si_rekrutowa_e" />
+        android:text="@string/udaj_si_tam_gdzie_si_rekrutowa_e"
+        android:textColor="@color/white"/>
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cnti" />
 
     <Button
         android:id="@+id/DalejCnti2"
