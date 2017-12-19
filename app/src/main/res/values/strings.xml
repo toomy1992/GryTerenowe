@@ -5,8 +5,15 @@
     <string name="X">Witaj w świecie Uniwersytetu Ekonomicznego pozwól, że oprowadzę Cię po budynkach uczelnii</string>
     <string name="Dalej">Dalej</string>
     <string name="udaj_si_tam_gdzie_si_rekrutowa_e">Udaj się tam gdzie się rekrutowałeś</string>
-    <string name="w_planie_jest_to_budynek">W planie ten budynek ma dziwny zapis\nNa klawiaturze komputera to znak uzyskiwany dzięki\nShift + 2\nJaki to znak?</string>
-    <string name="wprowad_skr_t_budynku_w_kt_rym_jeste_mo_esz_zapyta_na_portierni">Wprowadź skrót budynku w którym jesteś\n
+    <string name="w_planie_jest_to_budynek">Witaj w Centrum Nowoczesnych Technologii Informatycznych.\n
+        Czy zauważyłeś, że budynek przypomina otwartą książkę? Takie było zamierzenie projektu Pracowni Projektowej "Wojciech Podleski" z Katowic.
+        W planie ten budynek ma dziwny zapis\nNa klawiaturze komputera to znak uzyskiwany dzięki\nShift + 2\nJaki to znak?</string>
+    <string name="wprowad_skr_t_budynku_w_kt_rym_jeste_mo_esz_zapyta_na_portierni">
+        Otwarcie tego budynku zbiegło się w czasie z rocznicą powstania tej uczelni,\n
+        a dokładniej rocznicę pierwszego wykładu, jaki odbył się w ówczesnym katowickim Wyższym Studium Nauk Społeczno-Gospodarczych.
+        Było to w grudniu 1936 roku,
+        a działalność zainaugurowała 11 stycznia 1937 roku wykładem przez rektora dr. Józefa Lisaka.
+        \n\n\nWprowadź skrót budynku w którym jesteś, aby przejść dalej\n
         Możesz zapytać na portierni</string>
     <string name="w_budynku_jest_biblioteka_odnajd_j_teraz_przyda_ci_si_jak_nie_bedziesz_czego">W budynku jest biblioteka odnajdź ją teraz, \n przyda Ci się jak nie bedziesz czegoś wiedzieć</string>
     <string name="Na_ktorym_pietrze">Na którym piętrze teraz jesteś?</string>

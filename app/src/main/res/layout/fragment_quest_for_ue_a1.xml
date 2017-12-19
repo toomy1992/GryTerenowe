@@ -9,21 +9,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="53dp"
         android:text="Na parterze jest bufet. Przyda się na głód. \n W której jest sali?"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:id="@+id/textView4" />
 
 
     <Button
         android:id="@+id/daleja2"
-        android:layout_width="wrap_content"
-        android:layout_height="42dp"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_width"
+        android:layout_alignEnd="@+id/textView4"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
         android:text="@string/Dalej" />
 
 </RelativeLayout>
