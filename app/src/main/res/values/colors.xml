@@ -5,4 +5,8 @@
     <color name="white">#0f0f0f</color>
     <color name="colorAccent">#783d30</color>
     <color name="darkgray">#6c6c6c</color>
+    <color name="blueback">#99FFFF</color>
+    <color name="blue">#0066cc</color>
+    <color name="sandybrown">#F4A460</color>
+    <color name="tomato">#FF6347</color>
 </resources>

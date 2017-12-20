@@ -36,6 +36,7 @@ public class QuestForUeCnti2 extends Fragment {
         answer = (EditText)v.findViewById(R.id.editText);
         answer.addTextChangedListener(mWatcher);
         QuestForUeBtn.setEnabled(false);
+        QuestForUeBtn.setBackgroundColor(Color.GRAY);
 
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +68,9 @@ public class QuestForUeCnti2 extends Fragment {
 
         boolean isReady = answer.getText().toString().equals("@");
         next.setEnabled(isReady);
+        if (isReady == true){
+            next.setBackgroundColor(Color.GREEN);
+        }
     }
 
 

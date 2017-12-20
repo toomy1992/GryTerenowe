@@ -1,6 +1,7 @@
 package com.example.toomy.gryterenowe;
 
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -35,6 +36,7 @@ public class QuestForUeCnti3 extends Fragment {
         answer = (EditText)v.findViewById(R.id.answer);
         answer.addTextChangedListener(mWatcher);
         QuestForUeBtn.setEnabled(false);
+        QuestForUeBtn.setBackgroundColor(Color.GRAY);
 
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,8 +65,9 @@ public class QuestForUeCnti3 extends Fragment {
 
     public void enableSubmitIfReady(EditText answer, Button next) {
 
-        if (answer.getText().toString().equals("CNTI")){
+        if (answer.getText().toString().equals("1936")){
             next.setEnabled(true);
+            next.setBackgroundColor(Color.GREEN);
         }
     }
 

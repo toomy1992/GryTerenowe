@@ -10,7 +10,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
         android:text="@string/wprowad_skr_t_budynku_w_kt_rym_jeste_mo_esz_zapyta_na_portierni"
-        android:id="@+id/textView6" />
+        android:id="@+id/textView6"
+        android:gravity="center"/>
 
 
     <Button
@@ -23,7 +24,8 @@
         android:layout_marginBottom="20dp"
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
-        android:text="@string/Dalej" />
+        android:text="@string/Dalej"
+        />
 
     <EditText
         android:id="@+id/answer"
@@ -34,7 +36,7 @@
         android:layout_marginTop="77dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="wprowadź skrót" />
+        android:text="wprowadź rok" />
 
 </RelativeLayout>
 

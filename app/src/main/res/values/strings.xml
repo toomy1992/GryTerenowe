@@ -11,13 +11,14 @@
     <string name="wprowad_skr_t_budynku_w_kt_rym_jeste_mo_esz_zapyta_na_portierni">
         Otwarcie tego budynku zbiegło się w czasie z rocznicą powstania tej uczelni,\n
         a dokładniej rocznicę pierwszego wykładu, jaki odbył się w ówczesnym katowickim Wyższym Studium Nauk Społeczno-Gospodarczych.
-        Było to w grudniu 1936 roku,
-        a działalność zainaugurowała 11 stycznia 1937 roku wykładem przez rektora dr. Józefa Lisaka.
-        \n\n\nWprowadź skrót budynku w którym jesteś, aby przejść dalej\n
-        Możesz zapytać na portierni</string>
+        Było to w grudniu x roku,
+        \n\n\nOdgadnij, który to był rok.\n
+    Wskazówką jest wynik działania\n
+    2017-F0+F</string>
     <string name="w_budynku_jest_biblioteka_odnajd_j_teraz_przyda_ci_si_jak_nie_bedziesz_czego">W budynku jest biblioteka odnajdź ją teraz, \n przyda Ci się jak nie bedziesz czegoś wiedzieć</string>
-    <string name="Na_ktorym_pietrze">Na którym piętrze teraz jesteś?</string>
-    <string name="Najnowoczesniejsza">Najnowocześniejsza aula jest w CNTI\nCzy ma patrona?</string>
+    <string name="Na_ktorym_pietrze">Na którym piętrze teraz jesteś? \n(podaj cyfrę)</string>
+    <string name="Najnowoczesniejsza">Przejdź na 5 piętro by zobaczyć aulę. \n
+        Może się tu zmieścić 197 uczestników. Są tutaj organizowane konferencje i wykłady.\nRozejrzyj się.\nCzy są gdzieś informacje o patronie auli?</string>
     <string name="tak">Tak</string>
     <string name="CNTI7">Piękny widok z okno, pokazuje ci dwa budynki uczelni   W okresie letnim balkon jest otwarty   do dyspozycji studentów     Twoim celem jest budynek po prawej stronie   wejdź do niego od strony ulicy</string>
     <string name="ksero">Ksero, przyjaciel studenta jest na 1 piętrze   obok niego jest strefa studenta   Jak myślisz która firma ją sfinansowała?</string>

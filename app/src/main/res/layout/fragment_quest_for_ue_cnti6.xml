@@ -12,11 +12,12 @@
         android:layout_marginTop="46dp"
         android:text="@string/Najnowoczesniejsza"
         tools:ignore="HardcodedText"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:gravity="center"/>
 
 
     <Button
-        android:id="@+id/dalejcnti7"
+        android:id="@+id/wrong_answer"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_alignEnd="@+id/textView"
@@ -31,11 +32,21 @@
         android:id="@+id/dalejcnti6"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
-        android:layout_alignBaseline="@+id/dalejcnti7"
-        android:layout_alignBottom="@+id/dalejcnti7"
+        android:layout_alignBaseline="@+id/wrong_answer"
+        android:layout_alignBottom="@+id/wrong_answer"
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView"
         android:text="@string/tak" />
+
+    <TextView
+        android:id="@+id/mistake_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="138dp"
+        android:layout_toLeftOf="@+id/wrong_answer"
+        android:layout_toStartOf="@+id/wrong_answer"
+        android:textColor="@color/tomato"/>
 
 </RelativeLayout>
 
