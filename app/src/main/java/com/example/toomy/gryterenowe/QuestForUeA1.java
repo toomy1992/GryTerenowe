@@ -33,7 +33,6 @@ public class QuestForUeA1 extends Fragment {
                 QuestForUeA2 questForUe = new QuestForUeA2();
                 FragmentManager manager = getFragmentManager();
                 manager.beginTransaction().replace(R.id.flcontent,questForUe,questForUe.getTag()).commit();
-
             }
         });
         return v;
