@@ -24,7 +24,8 @@
         android:layout_centerVertical="true"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="numer sali" />
+        android:text="numer sali"
+        android:gravity="center"/>
 
     <Button
         android:id="@+id/daleja2"

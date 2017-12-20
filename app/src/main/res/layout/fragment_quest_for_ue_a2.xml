@@ -11,7 +11,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
         android:text="@string/ksero"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:gravity="center"/>
 
 
     <Button
