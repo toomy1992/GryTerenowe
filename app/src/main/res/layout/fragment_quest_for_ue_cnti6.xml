@@ -52,11 +52,10 @@
         android:id="@+id/mistake_information"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="138dp"
-        android:layout_toLeftOf="@+id/wrong_answer"
-        android:layout_toStartOf="@+id/wrong_answer"
-        android:textColor="@color/tomato"/>
+        android:layout_above="@+id/wrong_answer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/tomato" />
 
 </RelativeLayout>
 
