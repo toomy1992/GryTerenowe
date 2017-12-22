@@ -14,18 +14,29 @@
         tools:ignore="HardcodedText"
         android:id="@+id/textView4" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/glod" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_alignStart="@+id/textView4"
-        android:layout_centerVertical="true"
+        android:layout_alignBottom="@+id/daleja2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
         android:ems="10"
+        android:gravity="center"
         android:inputType="textPersonName"
-        android:text="numer sali"
-        android:gravity="center"/>
+        android:text="numer sali" />
 
     <Button
         android:id="@+id/daleja2"

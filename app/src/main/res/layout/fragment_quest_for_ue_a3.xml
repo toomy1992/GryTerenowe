@@ -12,8 +12,17 @@
         android:layout_marginTop="46dp"
         android:text="@string/popiersie"
         tools:ignore="HardcodedText"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:id="@+id/textView9" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/lis" />
 
     <Button
         android:id="@+id/daleja4"
@@ -26,6 +35,16 @@
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
         android:text="@string/Dalej" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/daleja4"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Imię Nazwisko" />
 
 
 
