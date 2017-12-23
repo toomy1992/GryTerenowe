@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.text.TextWatcher;
 import android.graphics.Color;
+import android.widget.TextView;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -37,6 +39,7 @@ public class QuestForUeCnti2 extends Fragment {
         answer.addTextChangedListener(mWatcher);
         QuestForUeBtn.setEnabled(false);
         QuestForUeBtn.setBackgroundColor(Color.GRAY);
+        setTimer(v);
 
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +75,9 @@ public class QuestForUeCnti2 extends Fragment {
             next.setBackgroundColor(Color.GREEN);
         }
     }
+    private void setTimer(View v){
 
-
+        TextView GameTimerView = (TextView) v.findViewById(R.id.timer);
+        GameTimer.getInstance().setTimerToTextViewOnFirstRun(GameTimerView);
+    }
 }

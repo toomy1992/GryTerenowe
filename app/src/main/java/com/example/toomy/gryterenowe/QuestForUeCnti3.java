@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 /**
@@ -37,6 +38,7 @@ public class QuestForUeCnti3 extends Fragment {
         answer.addTextChangedListener(mWatcher);
         QuestForUeBtn.setEnabled(false);
         QuestForUeBtn.setBackgroundColor(Color.GRAY);
+        setTimer(v);
 
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,12 +65,17 @@ public class QuestForUeCnti3 extends Fragment {
     };
 
 
-    public void enableSubmitIfReady(EditText answer, Button next) {
+    private void enableSubmitIfReady(EditText answer, Button next) {
 
         if (answer.getText().toString().equals("1936")){
             next.setEnabled(true);
             next.setBackgroundColor(Color.GREEN);
         }
+    }
+
+    private void setTimer(View v){
+        TextView timer = (TextView) v.findViewById(R.id.timer);
+        GameTimer.getInstance().setTimerToTextViewOnContinue(timer);
     }
 
 
