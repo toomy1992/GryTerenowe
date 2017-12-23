@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 /**
@@ -27,6 +28,7 @@ public class QuestForUeE1 extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_quest_for_ue_e1, container, false);
         Button QuestForUeBtn = (Button) v.findViewById(R.id.daleje2);
+        setTimer(v);
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,5 +39,9 @@ public class QuestForUeE1 extends Fragment {
             }
         });
         return v;
+    }
+    private void setTimer(View v){
+        TextView timer = (TextView) v.findViewById(R.id.timer);
+        GameTimer.getInstance().setTimerToTextViewOnContinue(timer);
     }
 }

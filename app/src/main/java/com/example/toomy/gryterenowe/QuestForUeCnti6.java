@@ -34,7 +34,7 @@ public class QuestForUeCnti6 extends Fragment {
         Button QuestForUeBtn = (Button) v.findViewById(R.id.dalejcnti6);
         Button WrongAnswer = (Button) v.findViewById(R.id.wrong_answer);
         final TextView MistakeInformation =  (TextView) v.findViewById(R.id.mistake_information);
-
+        setTimer(v);
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,6 +52,10 @@ public class QuestForUeCnti6 extends Fragment {
             }
         });
         return v;
+    }
+    private void setTimer(View v){
+        TextView timer = (TextView) v.findViewById(R.id.timer);
+        GameTimer.getInstance().setTimerToTextViewOnContinue(timer);
     }
 
 

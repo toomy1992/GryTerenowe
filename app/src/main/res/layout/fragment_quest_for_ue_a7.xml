@@ -11,7 +11,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
         android:text="@string/skrot_basen"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:gravity="center"/>
 
 
     <Button
@@ -26,7 +27,14 @@
         android:layout_marginRight="12dp"
         android:text="@string/Dalej" />
 
-
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
 
 
 </RelativeLayout>
