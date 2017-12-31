@@ -36,7 +36,7 @@
         android:layout_marginTop="77dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="wprowadź rok" />
+        android:text="1936" />
 
     <TextView
         android:id="@+id/timer"

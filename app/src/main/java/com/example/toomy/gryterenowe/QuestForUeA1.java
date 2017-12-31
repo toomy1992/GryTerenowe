@@ -42,6 +42,7 @@ public class QuestForUeA1 extends Fragment {
     private void setTimer(View v){
         TextView timer = (TextView) v.findViewById(R.id.timer);
         GameTimer.getInstance().setTimerToTextViewOnContinue(timer);
+
     }
 
 }

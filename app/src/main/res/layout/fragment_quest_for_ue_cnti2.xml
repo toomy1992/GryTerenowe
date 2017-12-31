@@ -47,7 +47,7 @@
         android:layout_marginStart="16dp"
         android:ems="5"
         android:inputType="textPersonName"
-        android:text="Wpisz" />
+        android:text="@" />
 
     <TextView
         android:id="@+id/timer"

@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 /**
@@ -24,6 +25,7 @@ public class Graj extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+    SharedPref sharedPref;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -59,6 +61,8 @@ public class Graj extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
+
         }
     }
 
@@ -68,6 +72,12 @@ public class Graj extends Fragment {
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_graj, container, false);
         Button QuestForUeBtn = (Button) v.findViewById(R.id.QuestForUeBtn);
+        TextView myTextView;
+        myTextView = (TextView) v.findViewById(R.id.twoj_czas) ;
+        sharedPref = new SharedPref(getContext());
+        myTextView.setText(sharedPref.loadHighScore());
+
+
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
