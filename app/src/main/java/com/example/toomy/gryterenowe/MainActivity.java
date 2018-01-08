@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.settings:
                 fragmentClass = Ustawienia.class;
                 break;
-            case R.id.help:
-                fragmentClass = Pomoc.class;
+            case R.id.statistics:
+                fragmentClass = Statistics.class;
                 break;
                 default:
                     fragmentClass = Graj.class;

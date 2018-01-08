@@ -5,13 +5,10 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 
@@ -47,6 +44,8 @@ public class QuestForUeCnti6 extends Fragment {
         WrongAnswer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                long wrongAnwerCost = 50000000;
+
                 MistakeInformation.setText("Błąd +5 sekund.");
                 MistakeInformation.setTextColor(Color.RED);
             }

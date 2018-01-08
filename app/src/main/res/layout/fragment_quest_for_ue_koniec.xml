@@ -11,7 +11,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
         android:text="@string/dziekuje"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,7 +21,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
         android:text="Twój czas to:"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:gravity="center"/>
 
 
     <TextView
@@ -31,6 +33,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:text="TextView"
+        android:gravity="center"
         />
 
 </TableLayout>

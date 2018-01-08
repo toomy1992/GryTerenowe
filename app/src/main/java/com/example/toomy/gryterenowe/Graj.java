@@ -72,11 +72,6 @@ public class Graj extends Fragment {
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_graj, container, false);
         Button QuestForUeBtn = (Button) v.findViewById(R.id.QuestForUeBtn);
-        TextView myTextView;
-        myTextView = (TextView) v.findViewById(R.id.twoj_czas) ;
-        sharedPref = new SharedPref(getContext());
-        myTextView.setText(sharedPref.loadHighScore());
-
 
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override

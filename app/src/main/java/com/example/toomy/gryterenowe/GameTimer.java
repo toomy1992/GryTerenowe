@@ -37,6 +37,7 @@ public class GameTimer {
         customHandler.postDelayed(startTimerThread, 0);
     }
 
+
     public void setTimerToTextViewOnContinue(TextView input){
         timerValue = input;
         customHandler.postDelayed(continueTimerThread, 0);
@@ -55,10 +56,8 @@ public class GameTimer {
         int secs = (int) (updatedTime / 1000);
         int mins = secs / 60;
         secs = secs % 60;
-        int milliseconds = (int) (updatedTime % 1000);
         timer = "" + mins + ":"
-                + String.format("%02d", secs) + ":"
-                + String.format("%03d", milliseconds);
+                + String.format("%02d", secs);
         timerValue.setText(timer);
     }
 

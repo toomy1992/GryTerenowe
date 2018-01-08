@@ -23,7 +23,7 @@ public class SharedPref {
     }
     public String loadHighScore()
     {
-        String state = mySharedPref.getString("HighScore","Brak czasu");
+        String state = mySharedPref.getString("HighScore","-----");
         return state;
     }
 }

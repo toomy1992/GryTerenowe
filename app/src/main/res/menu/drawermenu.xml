@@ -3,5 +3,5 @@
     <item android:id="@+id/db" android:title="Graj" />
     <item android:id="@+id/account" android:title="Konto" />
     <item android:id="@+id/settings" android:title="Ustawienia" />
-    <item android:id="@+id/help" android:title="Pomoc" />
+    <item android:id="@+id/statistics" android:title="Statystyki" />
 </menu>
