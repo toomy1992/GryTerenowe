@@ -36,7 +36,8 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="numer sali" />
+        android:hint="Wpisz numer"
+         />
 
     <Button
         android:id="@+id/daleja2"

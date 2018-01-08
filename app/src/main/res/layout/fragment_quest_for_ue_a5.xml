@@ -12,7 +12,17 @@
         android:layout_marginTop="46dp"
         android:text="@string/skrot"
         tools:ignore="HardcodedText"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:id="@+id/textView11" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:src="@drawable/korytarz" />
 
 
     <Button

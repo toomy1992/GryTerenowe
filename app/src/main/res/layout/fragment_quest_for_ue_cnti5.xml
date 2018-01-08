@@ -47,7 +47,8 @@
         android:layout_marginStart="13dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="3" />
+        android:hint="Wpisz cyfrę"
+        />
 
     <TextView
         android:id="@+id/timer"

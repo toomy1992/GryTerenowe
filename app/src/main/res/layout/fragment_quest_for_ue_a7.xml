@@ -36,6 +36,30 @@
         android:layout_alignParentTop="true"
         android:text="TextView" />
 
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/daleja8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:hint="Litera"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/basen" />
+
+
 
 </RelativeLayout>
 

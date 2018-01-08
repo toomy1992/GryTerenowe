@@ -11,7 +11,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
         android:text="@string/pozwiedzaj_budynek_i_wpisz_ile_ma_auli"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:id="@+id/textView12" />
 
 
     <Button
@@ -25,6 +26,28 @@
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
         android:text="@string/Dalej" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/daleja7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:ems="10"
+        android:hint="Liczba"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/daleja7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/b" />
 
     <TextView
         android:id="@+id/timer"

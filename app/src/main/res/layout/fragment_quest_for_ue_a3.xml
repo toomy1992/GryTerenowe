@@ -44,7 +44,8 @@
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text=" Imię Nazwisko" />
+        android:hint="Imię Nazwisko"
+        android:text="Józef Lisak" />
 
     <TextView
         android:id="@+id/timer"
