@@ -12,7 +12,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
         android:text="@string/udaj_si_tam_gdzie_si_rekrutowa_e"
-        android:textColor="@color/white"/>
+
+        android:textColor="@color/BGwhite"/>
 
     <ImageView
         android:id="@+id/imageView1"

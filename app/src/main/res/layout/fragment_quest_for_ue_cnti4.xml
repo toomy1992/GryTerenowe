@@ -13,7 +13,8 @@
         android:text="@string/w_budynku_jest_biblioteka_odnajd_j_teraz_przyda_ci_si_jak_nie_bedziesz_czego"
         tools:ignore="HardcodedText"
         android:gravity="center"
-        android:id="@+id/textView7" />
+        android:id="@+id/textView7"
+        android:textColor="@color/BGwhite"/>
 
     <ImageView
         android:id="@+id/imageView1"

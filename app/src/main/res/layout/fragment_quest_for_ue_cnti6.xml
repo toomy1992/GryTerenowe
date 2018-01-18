@@ -13,7 +13,8 @@
         android:text="@string/Najnowoczesniejsza"
         tools:ignore="HardcodedText"
         android:id="@+id/textView"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textColor="@color/BGwhite"/>
 
 
     <Button
