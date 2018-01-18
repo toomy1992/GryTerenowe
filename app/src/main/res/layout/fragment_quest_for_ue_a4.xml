@@ -11,7 +11,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="@string/winda"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:textColor="@color/BGwhite"/>
 
     <ImageView
         android:id="@+id/imageView1"

@@ -12,7 +12,8 @@
         android:layout_marginTop="46dp"
         android:text="@string/skrot_basen"
         tools:ignore="HardcodedText"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textColor="@color/BGwhite"/>
 
 
     <Button

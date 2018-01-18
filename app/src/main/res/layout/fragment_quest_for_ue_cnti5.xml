@@ -13,7 +13,8 @@
         android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="@string/Na_ktorym_pietrze"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:textColor="@color/BGwhite"/>
 
     <ImageView
         android:id="@+id/imageView1"

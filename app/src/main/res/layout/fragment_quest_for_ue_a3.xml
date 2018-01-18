@@ -13,7 +13,8 @@
         android:text="@string/popiersie"
         tools:ignore="HardcodedText"
         android:gravity="center"
-        android:id="@+id/textView9" />
+        android:id="@+id/textView9"
+        android:textColor="@color/BGwhite"/>
 
     <ImageView
         android:id="@+id/imageView1"

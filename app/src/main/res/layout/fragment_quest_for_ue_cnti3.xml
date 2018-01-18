@@ -11,6 +11,7 @@
         android:layout_marginTop="46dp"
         android:text="@string/wprowad_skr_t_budynku_w_kt_rym_jeste_mo_esz_zapyta_na_portierni"
         android:id="@+id/textView6"
+        android:textColor="@color/BGwhite"
         android:gravity="center"/>
 
 
