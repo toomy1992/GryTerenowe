@@ -15,8 +15,8 @@ import android.widget.TextView;
  * A simple {@link Fragment} subclass.
  */
 public class QuestForUeA2 extends Fragment {
-
-
+    private TextView errorText;
+    SharedPref sharedPref;
     public QuestForUeA2() {
         // Required empty public constructor
     }
@@ -28,6 +28,8 @@ public class QuestForUeA2 extends Fragment {
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_quest_for_ue_a2, container, false);
         Button QuestForUeBtn = (Button) v.findViewById(R.id.daleja3);
+        Button Blad = (Button) v.findViewById(R.id.blad);
+        errorText = (TextView) v.findViewById(R.id.error_text) ;
         setTimer(v);
         QuestForUeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +40,14 @@ public class QuestForUeA2 extends Fragment {
 
             }
         });
+        Blad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                errorText.setText("+5 sec");
+                sharedPref = new SharedPref(getContext());
+                sharedPref.addErrorSeconds(5);
+            }
+        });
         return v;
     }
     private void setTimer(View v){
@@ -45,3 +55,4 @@ public class QuestForUeA2 extends Fragment {
         GameTimer.getInstance().setTimerToTextViewOnContinue(timer);
     }
 }
+

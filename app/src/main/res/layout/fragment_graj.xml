@@ -15,7 +15,9 @@
             android:id="@+id/QuestForUeBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="UE Katowice" />
+            android:text="UE Katowice"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/blue"/>
 
         <TextView
             android:id="@+id/twoj_czas"

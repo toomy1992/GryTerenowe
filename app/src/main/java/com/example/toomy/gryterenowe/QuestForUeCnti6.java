@@ -17,7 +17,7 @@ import android.widget.TextView;
  */
 public class QuestForUeCnti6 extends Fragment {
 
-
+    SharedPref sharedPref;
     public QuestForUeCnti6() {
         // Required empty public constructor
     }
@@ -44,8 +44,8 @@ public class QuestForUeCnti6 extends Fragment {
         WrongAnswer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                long wrongAnwerCost = 50000000;
-
+                sharedPref = new SharedPref(getContext());
+                sharedPref.setErrorSeconds(5);
                 MistakeInformation.setText("Błąd +5 sekund.");
                 MistakeInformation.setTextColor(Color.RED);
             }

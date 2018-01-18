@@ -3,22 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="160dp"
-    android:background="@color/colorAccent"
+    android:background="@color/darkBlue"
     android:orientation="vertical">
     <TextView
+        android:id="@+id/user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Imie i nazwisko"
-        android:textColor="@color/white"
+        android:text="Panel gry"
+        android:textColor="@color/blue"
         android:textStyle="bold"
         android:layout_marginTop="5dp"
         />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Imieinazwisko@gmail.com"
-        android:textColor="@color/white"
-        android:layout_marginTop="5dp"
-        android:textSize="12dp"
-        />
+
 </LinearLayout>

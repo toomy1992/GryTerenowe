@@ -38,7 +38,7 @@
         android:text="@string/google" />
 
     <Button
-        android:id="@+id/nic"
+        android:id="@+id/blad"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_alignLeft="@+id/imageView1"
@@ -54,6 +54,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:text="TextView" />
+
+    <TextView
+        android:id="@+id/error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/daleja3"
+        android:layout_centerHorizontal="true"
+        android:text="" />
 
 
 </RelativeLayout>

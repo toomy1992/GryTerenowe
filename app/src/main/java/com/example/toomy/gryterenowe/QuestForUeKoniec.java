@@ -26,11 +26,15 @@ public class QuestForUeKoniec extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        String time = GameTimer.getInstance().getTime();
         View v = inflater.inflate(R.layout.fragment_quest_for_ue_koniec, container, false);
         myTextView = (TextView) v.findViewById(R.id.czas) ;
-        myTextView.setText(GameTimer.getInstance().getTime());
+
+
         sharedPref = new SharedPref(getContext());
         sharedPref.setHighScore(GameTimer.getInstance().getTime());
+        String errorSeconds = Integer.toString(sharedPref.loadSeconds());
+        myTextView.setText(time +" +"+errorSeconds+"sekund za karę");
         return v;
     }
 }

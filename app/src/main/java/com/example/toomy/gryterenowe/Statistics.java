@@ -37,7 +37,8 @@ public class Statistics extends Fragment {
         View v = inflater.inflate(R.layout.fragment_statistics, container, false);
         sharedPref = new SharedPref(getContext());
         UeKatowiceLastTime = (TextView) v.findViewById(R.id.ue_katowice_time) ;
-        UeKatowiceLastTime.setText(sharedPref.loadHighScore());
+        String time  = sharedPref.loadHighScore() + " +" +sharedPref.loadSeconds().toString();
+        UeKatowiceLastTime.setText(time);
         return v;
     }
 
